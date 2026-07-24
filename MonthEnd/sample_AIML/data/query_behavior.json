@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "queryType": "behavior_analysis"
+  },
+  "query": {
+    "rawText": "Why do I spend so much during stressful times?"
+  },
+  "conversationContext": {
+    "lastIntent": "behavior_analysis",
+    "awaitingField": null
+  }
+}

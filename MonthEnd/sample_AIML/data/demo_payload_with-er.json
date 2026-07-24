@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "userId": "high_risk_student",
+    "month": "2026-04",
+    "schemaVersion": 2
+  },
+  "state": {
+    "financial": {
+      "budgetUtilization": 0.88,
+      "planDeviationRatio": 0.35,
+      "spendingDelta": 500,
+      "transactionDelta": 5,
+      "transactions": [
+        { "date": "2026-04-01", "category": "Shopping", "amount": 250 },
+        { "date": "2026-04-02", "category": "Shopping", "amount": 270 },
+        { "date": "2026-04-03", "category": "Shopping", "amount": 260 },
+        { "date": "2026-04-04", "category": "Shopping", "amount": 280 },
+        { "date": "2026-04-05", "category": "Shopping", "amount": 240 },
+        { "date": "2026-04-06", "category": "Shopping", "amount": 2600 }
+      ]
+    },
+    "emotion": {
+      "distribution": {
+        "stress": 0.65,
+        "anxiety": 0.20,
+        "happiness": 0.10,
+        "sadness": 0.05
+      },
+      "stressSpendRatio": 0.78,
+      "emotionalVolatilityIndex": 0.82
+    },
+    "category": {
+      "distribution": {
+        "Shopping": 3900,
+        "Food": 200,
+        "Entertainment": 150
+      }
+    },
+    "temporal": {
+      "dailyVolatilityScore": 0.78,
+      "spikeFrequency": 4
+    },
+    "event": {
+      "highestExpenditureEventScore": 0.92,
+      "eventContext": {
+        "examCount": 3,
+        "festCount": 1,
+        "otherEventCount": 1,
+        "isEventActive": true,
+        "daysToNextEvent": 3,
+        "daysSinceLastEvent": 2,
+        "totalEventDays": 12,
+        "eventIntensityScore": 0.88
+      }
+    }
+  },
+  "profile": {
+    "impulsivity": 0.82,
+    "planning": 0.25,
+    "emotionalSpending": 0.85,
+    "socialInfluence": 0.75
+  },
+  "goals": {
+    "totalTarget": 30000,
+    "totalSaved": 2500,
+    "avgTimeline": 12,
+    "goalCount": 4,
+    "pressureScore": 0.92
+  },
+  "allowance": {
+    "monthlyAllowance": 8000,
+    "totalSpent": 7050,
+    "remaining": 950,
+    "utilization": 0.88
+  }
+}

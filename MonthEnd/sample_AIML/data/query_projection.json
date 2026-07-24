@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "queryType": "projection"
+  },
+  "query": {
+    "rawText": "What will my balance be at end of month?"
+  },
+  "conversationContext": {
+    "lastIntent": "projection",
+    "awaitingField": null
+  }
+}

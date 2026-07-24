@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "queryType": "affordability"
+  },
+  "query": {
+    "rawText": "Can I afford this?",
+    "amount": 1200
+  },
+  "conversationContext": {
+    "lastIntent": "affordability",
+    "awaitingField": null
+  }
+}

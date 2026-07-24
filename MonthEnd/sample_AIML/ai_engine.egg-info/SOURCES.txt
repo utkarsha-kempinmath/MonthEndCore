@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+ai_engine/__init__.py
+ai_engine/core.py
+ai_engine/hf_advisor.py
+ai_engine/model.py
+ai_engine/run.py
+ai_engine/schemas.py
+ai_engine.egg-info/PKG-INFO
+ai_engine.egg-info/SOURCES.txt
+ai_engine.egg-info/dependency_links.txt
+ai_engine.egg-info/requires.txt
+ai_engine.egg-info/top_level.txt

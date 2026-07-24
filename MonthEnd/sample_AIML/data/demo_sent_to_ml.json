@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "userId": "demo_student",
+    "month": "2026-04",
+    "schemaVersion": 2
+  },
+  "state": {
+    "financial": {
+      "budgetUtilization": 0.65,
+      "planDeviationRatio": 0.12,
+      "spendingDelta": 150,
+      "transactionDelta": 2,
+      "transactions": [
+        { "date": "2026-04-01", "category": "Food", "amount": 180 },
+        { "date": "2026-04-02", "category": "Food", "amount": 220 },
+        { "date": "2026-04-03", "category": "Transport", "amount": 90 },
+        { "date": "2026-04-04", "category": "Transport", "amount": 110 },
+        { "date": "2026-04-05", "category": "Shopping", "amount": 2500 },
+        { "date": "2026-04-06", "category": "Shopping", "amount": 2700 },
+        { "date": "2026-04-07", "category": "Entertainment", "amount": 600 }
+      ]
+    },
+    "emotion": {
+      "distribution": {
+        "happiness": 0.30,
+        "stress": 0.50,
+        "anxiety": 0.15,
+        "sadness": 0.05
+      },
+      "stressSpendRatio": 0.45,
+      "emotionalVolatilityIndex": 0.42
+    },
+    "category": {
+      "distribution": {
+        "Food": 800,
+        "Transport": 400,
+        "Shopping": 3000,
+        "Entertainment": 600
+      }
+    },
+    "temporal": {
+      "dailyVolatilityScore": 0.38,
+      "spikeFrequency": 2
+    },
+    "event": {
+      "highestExpenditureEventScore": 0.95,
+      "eventContext": {
+        "examCount": 1,
+        "festCount": 0,
+        "otherEventCount": 0,
+        "isEventActive": false,
+        "daysToNextEvent": 21,
+        "daysSinceLastEvent": 10,
+        "totalEventDays": 5,
+        "eventIntensityScore": 0.45
+      }
+    }
+  },
+  "profile": {
+    "impulsivity": 0.75,
+    "planning": 0.55,
+    "emotionalSpending": 0.65,
+    "socialInfluence": 0.60
+  },
+  "goals": {
+    "totalTarget": 25000,
+    "totalSaved": 6500,
+    "avgTimeline": 10,
+    "goalCount": 2,
+    "pressureScore": 0.50
+  },
+  "allowance": {
+    "monthlyAllowance": 10000,
+    "totalSpent": 6500,
+    "remaining": 3500,
+    "utilization": 0.65
+  }
+}

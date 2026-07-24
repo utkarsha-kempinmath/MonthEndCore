@@ -1,0 +1,57 @@
+{
+  "risk": {
+    "level": "low",
+    "overspendingProbability": 0.35,
+    "financialInstabilityScore": 0.42
+  },
+  "financialPosition": {
+    "spent": 3500.0,
+    "budget": 10000.0,
+    "remaining": 6500.0,
+    "daysLeft": 27,
+    "avgDailySpend": 116.67
+  },
+  "affordability": {
+    "canAfford": true,
+    "safeLimit": 4550.0,
+    "dangerLimit": 5850.0
+  },
+  "forecast": {
+    "projectedSpend": 3150.0,
+    "remainingBuffer": 3350.0,
+    "confidence": 0.70
+  },
+  "goalStatus": {
+    "progress": 0.60,
+    "onTrack": true
+  },
+  "impact": {
+    "delayAmount": 0.0,
+    "delayRisk": "low",
+    "budgetImpact": "safe",
+    "goalImpact": "none",
+    "behaviorRisk": "low"
+  },
+  "behavioral": {
+    "dominantPattern": "balanced",
+    "trigger": "none",
+    "consistencyScore": 0.85
+  },
+  "predictions": {
+    "endOfMonthBalance": 6500.0,
+    "goalAchievementProbability": 0.78
+  },
+  "anomalies": [],
+  "insights": {
+    "summary": "Based on your spending patterns, you are managing your budget well. Your consistent spending habits and good planning skills are helping you stay on track with your financial goals.",
+    "tags": []
+  },
+  "chatbot": {
+    "message": "You've spent ₹3500 out of ₹10000. You have ₹6500 remaining. ✓ You're on track. Keep monitoring your spending.",
+    "followUp": {
+      "required": false,
+      "field": null,
+      "question": null
+    }
+  }
+}

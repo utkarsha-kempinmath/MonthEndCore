@@ -1,0 +1,68 @@
+{
+  "risk": {
+    "level": "high",
+    "overspendingProbability": 0.95,
+    "financialInstabilityScore": 1.0
+  },
+  "financialPosition": {
+    "spent": 9500.0,
+    "budget": 10000.0,
+    "remaining": 500.0,
+    "daysLeft": 27,
+    "avgDailySpend": 316.67
+  },
+  "affordability": {
+    "canAfford": false,
+    "safeLimit": 350.0,
+    "dangerLimit": 450.0
+  },
+  "forecast": {
+    "projectedSpend": 8550.0,
+    "remainingBuffer": -8050.0,
+    "confidence": 0.50
+  },
+  "goalStatus": {
+    "progress": 0.15,
+    "onTrack": false
+  },
+  "impact": {
+    "delayAmount": 500.0,
+    "delayRisk": "high",
+    "budgetImpact": "risky",
+    "goalImpact": "major_delay",
+    "behaviorRisk": "high"
+  },
+  "behavioral": {
+    "dominantPattern": "impulse_spending",
+    "trigger": "stress_spending",
+    "consistencyScore": 0.30
+  },
+  "predictions": {
+    "endOfMonthBalance": 500.0,
+    "goalAchievementProbability": 0.05
+  },
+  "anomalies": [
+    {
+      "type": "spike",
+      "category": "Shopping",
+      "severity": 0.85
+    },
+    {
+      "type": "spike",
+      "category": "Entertainment",
+      "severity": 0.70
+    }
+  ],
+  "insights": {
+    "summary": "Based on your spending patterns, you are at high risk of budget overrun. Your impulse and stress spending patterns are significantly impacting your ability to achieve your financial goals.",
+    "tags": ["high_risk", "spikes_detected", "impulse_prone", "goal_at_risk"]
+  },
+  "chatbot": {
+    "message": "You've spent ₹9500 out of ₹10000. You have only ₹500 remaining. ⚠️ You're approaching or exceeding your budget. Be mindful of your spending.",
+    "followUp": {
+      "required": true,
+      "field": "spending_limits",
+      "question": "Would you like to set daily spending limits to help control expenses?"
+    }
+  }
+}

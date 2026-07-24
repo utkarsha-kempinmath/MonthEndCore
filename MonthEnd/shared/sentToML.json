@@ -1,0 +1,124 @@
+{
+  meta: {
+    userId,
+    month: "2026-04",
+    schemaVersion: 2
+  },
+
+  state: {
+    financial: {
+      budgetUtilization,
+      planDeviationRatio,
+      spendingDelta,
+      transactionDelta
+    },
+
+    emotion: {
+      distribution,
+      stressSpendRatio,
+      emotionalVolatilityIndex
+    },
+
+    category: {
+      distribution
+    },
+
+    temporal: {
+      dailyVolatilityScore,
+      spikeFrequency
+    },
+
+    event: {
+      highestExpenditureEventScore,
+
+      // NEW: event context (time-aware + behavioral)
+      eventContext: {
+        examCount,
+        festCount,
+        otherEventCount,
+
+        isEventActive,
+        daysToNextEvent,
+        daysSinceLastEvent,
+
+        totalEventDays,
+        eventIntensityScore
+      }
+    }
+  },
+
+  profile: {
+    impulsivity,
+    planning,
+    emotionalSpending,
+    socialInfluence
+  },
+
+  goals: {
+    totalTarget,
+    totalSaved,
+    avgTimeline,
+    goalCount,
+    pressureScore
+  },
+
+  allowance: {
+    monthlyAllowance,
+    totalSpent,
+    remaining,
+    utilization
+  }
+}
+
+{
+  "meta": {
+    "queryType": "affordability"
+  },
+  "query": {
+    "rawText": "Can I afford this?",
+    "amount": 1200
+  },
+  "conversationContext": {
+    "lastIntent": "affordability",
+    "awaitingField": null
+  }
+}
+
+{
+  "meta": {
+    "queryType": "projection"
+  },
+  "query": {
+    "rawText": "End-of-month outlook"
+  },
+  "conversationContext": {
+    "lastIntent": "projection",
+    "awaitingField": null
+  }
+}
+
+{
+  "meta": {
+    "queryType": "projection"
+  },
+  "query": {
+    "rawText": "End-of-month outlook"
+  },
+  "conversationContext": {
+    "lastIntent": "projection",
+    "awaitingField": null
+  }
+}
+
+{
+  "meta": {
+    "queryType": "behavior_analysis"
+  },
+  "query": {
+    "rawText": "Stress spending pattern"
+  },
+  "conversationContext": {
+    "lastIntent": "behavior_analysis",
+    "awaitingField": null
+  }
+}

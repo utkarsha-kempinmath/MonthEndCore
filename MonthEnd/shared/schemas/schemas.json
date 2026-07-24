@@ -1,0 +1,67 @@
+{
+  "$schemaVersion": "2.1",
+
+  "Allowance": {
+    "user": "ObjectId (ref: user)",
+    "amount": "number",
+    "source": "string",
+    "period": "string (daily | weekly | monthly | yearly)",
+    "startDate": "ISODate",
+    "createdAt": "ISODate",
+    "updatedAt": "ISODate"
+  },
+
+  "CalendarEvent": {
+    "user": "ObjectId (ref: user)",
+    "eventName": "string",
+    "startDate": "ISODate",
+    "endDate": "ISODate",
+    "eventType": "string (exam | submission | fest | reminder | other)",
+    "createdAt": "ISODate",
+    "updatedAt": "ISODate"
+  },
+
+  "Expense": {
+    "user": "ObjectId (ref: user)",
+    "amount": "number",
+    "date": "ISODate",
+    "category": "string",
+    "note": "string",
+    "emotions": "string[] (calm | stress | social | impulse | other)",
+    "createdAt": "ISODate",
+    "updatedAt": "ISODate"
+  },
+
+  "Goal": {
+    "user": "ObjectId (ref: user)",
+    "name": "string",
+    "targetAmount": "number",
+    "timelineMonths": "number",
+    "savedAmount": "number",
+    "createdAt": "ISODate",
+    "updatedAt": "ISODate"
+  },
+
+  "Planning": {
+    "user": "ObjectId (ref: user)",
+    "month": "string (YYYY-MM)",
+    "categories": [
+      {
+        "name": "string",
+        "amount": "number"
+      }
+    ],
+    "total": "number",
+    "createdAt": "ISODate",
+    "updatedAt": "ISODate"
+  },
+
+  "User": {
+    "_id": "ObjectId",
+    "fullname": "string",
+    "email": "string",
+    "passwordHash": "string",
+    "createdAt": "ISODate",
+    "updatedAt": "ISODate"
+  }
+}

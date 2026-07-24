@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "queryType": "goal_analysis"
+  },
+  "query": {
+    "rawText": "Will I achieve my savings goal this month?"
+  },
+  "conversationContext": {
+    "lastIntent": "goal_analysis",
+    "awaitingField": null
+  }
+}

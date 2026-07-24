@@ -1,0 +1,108 @@
+{
+  risk: {
+    overspendingProbability,     // 0 → 1
+    financialInstabilityScore    // composite
+  },
+
+  behavioral: {
+    dominantPattern,             // "stress_spending"
+    trigger: "exam_period",
+    consistencyScore
+  },
+
+  predictions: {
+    endOfMonthBalance,
+    goalAchievementProbability
+  },
+
+  anomalies: [
+    {
+      type: "spike",
+      category: "food",
+      severity: 0.7
+    }
+  ],
+
+  insights: {
+    summary: "You tend to overspend during stressful academic periods.",
+    tags: ["emotional", "exam-driven", "spikes"]
+  }
+}
+
+//for chatbot:
+{
+  "type": "affordability | projection | goal_impact | behavior_analysis",
+
+  "risk": {
+    "level": "low | moderate | high",
+    "overspendingProbability": 0.0,
+    "financialInstabilityScore": 0.0
+  },
+
+  "financialPosition": {
+    "spent": 0,
+    "budget": 0,
+    "remaining": 0,
+    "daysLeft": 0,
+    "avgDailySpend": 0
+  },
+
+  "affordability": {
+    "canAfford": true,
+    "safeLimit": 0,
+    "dangerLimit": 0
+  },
+
+  "forecast": {
+    "projectedSpend": 0,
+    "remainingBuffer": 0,
+    "confidence": 0.0
+  },
+
+  "goalStatus": {
+    "progress": 0.0,
+    "onTrack": true
+  },
+
+  "impact": {
+    "delayAmount": 0,
+    "delayRisk": "low | medium | high",
+    "budgetImpact": "safe | stretch | risky",
+    "goalImpact": "none | slight_delay | major_delay",
+    "behaviorRisk": "low | medium | high"
+  },
+
+  "behavioral": {
+    "dominantPattern": "string",
+    "trigger": "string",
+    "consistencyScore": 0.0
+  },
+
+  "predictions": {
+    "endOfMonthBalance": 0,
+    "goalAchievementProbability": 0.0
+  },
+
+  "anomalies": [
+    {
+      "type": "spike",
+      "category": "string",
+      "severity": 0.0
+    }
+  ],
+
+  "insights": {
+    "summary": "string",
+    "tags": []
+  },
+
+  "chatbot": {
+    "message": "string",
+
+    "followUp": {
+      "required": false,
+      "field": null,
+      "question": null
+    }
+  }
+}

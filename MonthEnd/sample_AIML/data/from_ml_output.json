@@ -1,0 +1,90 @@
+{
+  "risk": {
+    "level": "moderate",
+    "overspendingProbability": 0.64,
+    "financialInstabilityScore": 0.27,
+    "compositeRiskFactors": {
+      "budgetDeviation": 0.18,
+      "stressInfluence": 0.0,
+      "volatilityInfluence": 0.01,
+      "eventInfluence": 0.0,
+      "goalPressure": 0.5
+    }
+  },
+  "financialPosition": {
+    "spent": 6400.0,
+    "budget": 10000.0,
+    "remaining": 3600.0,
+    "utilization": 0.65,
+    "daysLeft": 27,
+    "avgDailySpend": 2133.33,
+    "budgetDeviation": 0.12
+  },
+  "affordability": {
+    "canAfford": true,
+    "safeLimit": 2520.0,
+    "dangerLimit": 3240.0
+  },
+  "forecast": {
+    "projectedSpend": 66355.2,
+    "remainingBuffer": -62755.2,
+    "confidence": 0.52,
+    "confidenceFactors": {
+      "emotionalVolatility": 0.42,
+      "dailyVolatility": 0.38,
+      "eventProximity": 0.0
+    }
+  },
+  "goalStatus": {
+    "progress": 0.26,
+    "onTrack": false,
+    "totalTarget": 25000.0,
+    "totalSaved": 6500.0,
+    "goalCount": 2,
+    "pressureScore": 0.5
+  },
+  "impact": {
+    "delayAmount": 0,
+    "delayRisk": "low",
+    "budgetImpact": "stretch",
+    "goalImpact": "major_delay",
+    "behaviorRisk": "high"
+  },
+  "behavioral": {
+    "dominantPattern": "impulse_spending",
+    "trigger": "unknown",
+    "consistencyScore": 0.55,
+    "emotionalMetrics": {
+      "stressSpendRatio": 0.45,
+      "emotionalVolatility": 0.42,
+      "dominantEmotion": "stress"
+    },
+    "temporalMetrics": {
+      "dailyVolatility": 0.38,
+      "spikeFrequency": 2
+    }
+  },
+  "predictions": {
+    "endOfMonthBalance": 3600.0,
+    "goalAchievementProbability": 0.12,
+    "riskTrajectory": "stable"
+  },
+  "anomalies": [],
+  "insights": {
+    "summary": "Based on your comprehensive financial profile: you are approaching budget limits",
+    "tags": [
+      "caution",
+      "frequent_spikes",
+      "goal_at_risk"
+    ],
+    "detailedFindings": []
+  },
+  "chatbot": {
+    "message": "You've spent Rs6400 out of Rs10000. You have Rs3600 remaining. ✓ You're on track. Keep monitoring your spending.",
+    "followUp": {
+      "required": false,
+      "field": null,
+      "question": null
+    }
+  }
+}
